@@ -9,8 +9,7 @@ public class Exo61 {
 
     public static void exo61() {
         for (i = 0; i < 6 ; i++) {
-
-            
+            tableau[i] = 0;
         }
     }
 

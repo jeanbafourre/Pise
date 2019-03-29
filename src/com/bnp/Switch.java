@@ -9,8 +9,9 @@ public class Switch {
 
     public static void Switch() {
         for (int i=0; i<tableauCaractere.length; i++) {
-            System.out.println();
+            System.out.println(tableauCaractere[i]);
         }
+        System.out.println(tableauCaractere);
     }
 
 
