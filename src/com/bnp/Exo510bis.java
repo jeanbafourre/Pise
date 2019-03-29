@@ -19,27 +19,15 @@ NB : cet algorithme peut être écrit d’une manière simple, mais relativement
 Ses performances peuvent être singulièrement augmentées par une petite astuce. Vous commencerez par écrire la manière la plus simple, puis vous identifierez le problème, et écrirez une deuxième version permettant de le résoudre.
  */
 
-public class Exo511 {
+public class Exo510bis {
 
-    private static int n;
-    private static Scanner sc = new Scanner(System.in);
-    private static Integer input;
-    private static List<Integer> liste = new ArrayList<>();
-    private static int somme = 0;
-    private static int produit = 1;
-    private static int max = 0;
-    private static int position;
-    private static int[] tab = new int[5];
-    private static int i = 1;
-    private static int p = 0;
     private static int rendu;
     private static int donne = 100;
     private static int cout = 61;
     private static int piecesOuBillets;
-    private static int cinqEuros;
     private static int var0 = 0;
 
-    public static void exo511() {
+    public static void exo510bis() {
 
         rendu = donne - cout;
         System.out.println("Total TTC : " + cout);
